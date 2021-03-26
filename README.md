@@ -1,4 +1,4 @@
-elasticdump
+Catapult elasticdump
 ==================
 
 Tools for moving and saving indices.
@@ -15,6 +15,22 @@ Tools for moving and saving indices.
 [![Build Status](https://secure.travis-ci.org/elasticsearch-dump/elasticsearch-dump.png?branch=master)](http://travis-ci.org/elasticsearch-dump/elasticsearch-dump)
 [![Downloads](https://img.shields.io/npm/dm/elasticdump.svg)](https://npmjs.com/elasticdump)
 
+
+## Installing Locally From Source
+
+```bash
+# Clone your repo:
+git clone git@github.com:catapult-elearning/elasticsearch-dump
+# Setup git flow:
+git flow init
+# Install a copy of node.js (v10.0 or higher)
+# Install NPM
+# Use NPM to install from local source:
+npm install .
+# Run from the bin folder:
+bin/elasticdump --version
+6.67.2
+```
 
 ## Version Warnings!
 
