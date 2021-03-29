@@ -4,7 +4,7 @@ pipeline {
 		stage ('Buld Docker Images') {
 			steps {
 			sh """
-			  cd "$WORKSPACE/
+			  cd "$WORKSPACE/"
         docker build . \
   		    -t registry.internal.catapult-elearning.net:5000/cat_elasticsearch-dump \
 	  			-t registry.internal.catapult-elearning.net:5000/cat_elasticsearch-dump:$BUILD_NUMBER \
